@@ -4,7 +4,7 @@ import os
 
 @given("a Word document from the input folder")
 def step_given_doc(context):
-    context.doc_path = "input/sample.docx"
+    context.doc_path = "C:\\Assignment\\word_doc_tester\\input\\sample.docx"
 
 @when("the document is tested for heading styles and page number")
 def step_when_test_doc(context):
